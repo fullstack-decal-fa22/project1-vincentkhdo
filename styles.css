@@ -1,0 +1,23 @@
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  * {
+    font-family: Calibri, serif;
+  }
+
+  #blue {
+    background-color: skyblue;
+  }
+
+  .hovering:hover {
+    background-color: lightsalmon;
+  }
+  
